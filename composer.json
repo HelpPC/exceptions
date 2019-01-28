@@ -1,0 +1,22 @@
+{
+  "name": "helppc/exceptions",
+  "description": "Exceptions",
+  "type": "project",
+  "require": {
+    "php": ">= 7.1"
+  },
+  "require-dev": {
+    "nette/tester": "^2.0"
+  },
+  "minimum-stability": "stable",
+  "config": {
+    "platform": {
+      "php": "7.1"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "HelpPC\\": "src/"
+    }
+  }
+}
